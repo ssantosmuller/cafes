@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Café Santos Muller</title>
+    <title>Muller</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -21,20 +21,42 @@
             font-size: 1.1em;
             margin-bottom: 20px;
         }
+        /* Adicionei botoes ao site */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 0 10px;
+            background-color: #6F4E37; /* Cor do botão: Marrom-café */
+            color: white;
+            text-decoration: none; /* Remove o sublinhado do link */
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #4A2C2A; /* Cor mais escura ao passar o mouse */
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>☕ Bem-vindo ao Café Muller! ☕</h1>
+        <h1>☕ Bem-vindo Muller! ☕</h1>
     </header>
 
     <main>
-        <p>Em breve, esta será a página oficial do nosso cantinho especial de café.</p>
-        <p>Fique ligado em nossas atualizações para saber mais sobre nossos grãos e blends exclusivos.</p>
-    </main>
+    <h2>O que você deseja fazer hoje?</h2>
+    <p>Clique em uma das opções abaixo para explorar nosso catálogo ou saber mais sobre a nossa história.</p>
+    
+    <div style="margin-top: 30px;">
+        <a href="cafes.html" class="button">Ver Catálogo de Cafés</a>
+        <a href="escrever.html" class="button">Desejo escrever</a>
+        <a href="compras.html" class="button">Acessar alista de desejos</a>
+    </div>
+</main>
 
     <footer>
-        <p>Seu espaço de café predileto. | <a href="mailto:contato@exemplo.com">Contato</a></p>
+        <p>Aqui é seu espaço. | <a href="mailto:ssantos.muller@gmail.com.com">Contato</a></p>
     </footer>
 </body>
 </html>
