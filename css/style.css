@@ -1,0 +1,16 @@
+/* Adicione este estilo ao bloco <style> */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 0 10px;
+            background-color: #6F4E37; /* Cor do botão: Marrom-café */
+            color: white;
+            text-decoration: none; /* Remove o sublinhado do link */
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #4A2C2A; /* Cor mais escura ao passar o mouse */
+        }
